@@ -15,6 +15,11 @@ Por lo general nombramos las clases en singular. Los atributos van en camel case
 En la clase Cuenta, eliminar el constructor completo de lombok si no se quiere pedir el saldo como parámetro.
 En la clase Cuenta, eliminar los getters hechos a mano si ya existe el de lombok. Eliminar los imports no utilizados.
 Revisar los getters repetidos con lombok en las clases. 
-En la clase CuentaConvertibilidad si se quiere que la cuenta arranque con cero dólares, el constructor no debería llevar el parámetro de saldoDolares. 
 Hay llaves de más en el código. El método de convertirPesoADolares y el de dólares a pesos, debería validar también el monto de la tasa de conversión.
 Falta completar la clase de Test de la clase convertibilidad.
+
+-Sin solucionar: 
+
+En la clase CuentaConvertibilidad si se quiere que la cuenta arranque con cero dólares, el constructor no debería llevar el parámetro de saldoDolares. 
+
+-Solucion establecer saldoDolares como protected y no declararlo en el constructo de cuenta convertibilidad.
