@@ -18,8 +18,3 @@ Revisar los getters repetidos con lombok en las clases.
 Hay llaves de más en el código. El método de convertirPesoADolares y el de dólares a pesos, debería validar también el monto de la tasa de conversión.
 Falta completar la clase de Test de la clase convertibilidad.
 
--Sin solucionar: 
-
-En la clase CuentaConvertibilidad si se quiere que la cuenta arranque con cero dólares, el constructor no debería llevar el parámetro de saldoDolares. 
-
--Solucion establecer saldoDolares como protected y no declararlo en el constructo de cuenta convertibilidad.
