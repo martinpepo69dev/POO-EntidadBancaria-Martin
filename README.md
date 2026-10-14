@@ -16,5 +16,5 @@ En la clase Cuenta, eliminar el constructor completo de lombok si no se quiere p
 En la clase Cuenta, eliminar los getters hechos a mano si ya existe el de lombok. Eliminar los imports no utilizados.
 Revisar los getters repetidos con lombok en las clases. 
 Hay llaves de más en el código. El método de convertirPesoADolares y el de dólares a pesos, debería validar también el monto de la tasa de conversión.
-Falta completar la clase de Test de la clase convertibilidad.
+Falta completar la clase de Test de la clase convertibilidad. Tambien se elimino del constructor de cuenta convertibilidad el atributo saldo dolares para no pedir saldo dolares cada vez que se quiera crear una cuenta.
 
